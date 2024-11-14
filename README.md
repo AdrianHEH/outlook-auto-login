@@ -25,7 +25,7 @@ This Python script automates the login process to multiple Outlook accounts usin
    
    pip install -r requirements.txt
    
-3. **Modify the `credentials.txt` file in the project directory. List your Outlook accounts in this file, using the format `email:password` for each account on a new line:**:
+3. **Modify the `credentials.txt` file in the project directory. List your Outlook accounts in this file, using the format `email:password` for each account on a new line:**
    ```bash
    
    user1@example.com:password1
