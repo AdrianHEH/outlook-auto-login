@@ -31,9 +31,9 @@ This Python script automates the login process to multiple Outlook accounts usin
    user1@example.com:password1
    user2@example.com:password2
    
-4. **Update Path to chrome.exe: update the path in the script:**
+4. **Update Path to chrome.exe: update the path in the script:
    Open `outlook_auto_login.py`
-   Modify the `chrome_options.binary_location` variable on line 21:
+   Modify the `chrome_options.binary_location` variable on line 21:**
    
    ```bash
    chrome_options.binary_location = r"path\to\your\chrome.exe"
