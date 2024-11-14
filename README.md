@@ -17,7 +17,7 @@ This Python script automates the login process to multiple Outlook accounts usin
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/outlook-auto-login.git
+   git clone https://github.com/AdrianHEH/outlook-auto-login.git
    cd outlook-auto-login
    
 2. **Install the required packages: Install Selenium and `webdriver-manager` using the `requirements.txt` file:y**
