@@ -20,7 +20,7 @@ This Python script automates the login process to multiple Outlook accounts usin
    git clone https://github.com/AdrianHEH/outlook-auto-login.git
    cd outlook-auto-login
    
-2. **Install the required packages: Install Selenium and `webdriver-manager` using the `requirements.txt` file:y**
+2. **Install the required packages: Install Selenium and `webdriver-manager` using the `requirements.txt` file:**
    ```bash
    
    pip install -r requirements.txt
@@ -33,7 +33,7 @@ This Python script automates the login process to multiple Outlook accounts usin
    
 4. **Update Path to chrome.exe: update the path in the script:**
    Open `outlook_auto_login.py`
-   Modify the `chrome_options.binary_location` variable on line 21 to the location of your credentials.txt file:**:
+   Modify the `chrome_options.binary_location` variable on line 21:**:
    
    ```bash
    chrome_options.binary_location = r"path\to\your\chrome.exe"
