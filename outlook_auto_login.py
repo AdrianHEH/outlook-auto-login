@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from time import sleep
 
+
 # Function to read credentials from a text file
 def read_credentials(file):
     credentials = []
@@ -67,6 +68,7 @@ def main():
         # Create a Chrome guest profile and log in
         driver = create_chrome_guest()
         drivers.append(driver)  # Add this instance to the list to keep the reference
+        sleep(30)
 
         try:
             login(driver, email, password)
@@ -76,12 +78,13 @@ def main():
         # Keep the window open for the first login
         if i == 1:
             print("First login completed, window kept open.")
+
         else:
             print(f"Profile {i} login completed in a new window.")
         
     # Keep all windows open after the logins
     print("All profiles are open. Press Ctrl+C to close.")
-    sleep(1000)  # Keep the script running so the windows remain open
+    sleep(100000)  # Keep the script running so the windows remain open
 
 if __name__ == "__main__":
     main()
