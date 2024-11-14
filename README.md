@@ -40,8 +40,8 @@ This Python script automates the login process to multiple Outlook accounts usin
    
 5. **Running the Script:**
    
- ```bash
-   python outlook_auto_login.py
+    ```bash
+      python outlook_auto_login.py
 
 
 
